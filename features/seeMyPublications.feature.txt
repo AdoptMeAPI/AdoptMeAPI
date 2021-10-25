@@ -1,0 +1,16 @@
+Why
+Como veterinario
+Quiero ver mis publicaciones anteriores
+Para tener un adecuado control de ellas.
+
+Acceptance Criteria
+Scenario: Realizó publicaciones anteriormente.
+Given El veterinario se encuentra en la ventana del menú principal
+When El veterinario elige ver todas las publicaciones que ha realizado.
+Then Aparece una ventana con la lista de todas las publicaciones que realizó anteriormente.
+
+Scenario: No realizó publicaciones anteriormente
+Given El veterinario se encuentra en la ventana del menú principal
+When El veterinario elige ver todas las publicaciones que ha realizado.
+Then Aparece el mensaje” Usted no cuenta con
+ninguna publicación. Presione el botón "Publicar anuncio" para empezar a publicar”.

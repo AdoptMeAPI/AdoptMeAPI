@@ -1,0 +1,15 @@
+Why
+Como usuario cliente
+Quiero enviar mi información personal al dueño que pone en adopción
+Para ser elegido por el dueño que pone en adopción
+
+Acceptance Criteria
+Scenario: Existe informacion guardada previamente
+Given El cliente la opcion me encuentro en la seccion del perfil de una mascota
+When Seleccione la opcion ver perfil del dueño 
+Then se abrira una nueva pestaña con el perfil del dueño
+
+Scenario: Existe informacion guardada previamente pero no existe conexion a internet 
+Given El cliente la opcion me encuentro en la seccion del perfil de una mascota
+When Seleccione la opcion ver perfil del dueño 
+Then No se muestra nada y se muestra un error de conexion

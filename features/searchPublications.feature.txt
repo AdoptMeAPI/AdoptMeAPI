@@ -1,0 +1,16 @@
+Why
+Como cliente
+Quiero personalizar mi búsqueda
+Para encontrar rápidamente una mascota.
+
+Acceptance Criteria
+Scenario: Encontrar mascotas con los parámetros registrados.
+Given El cliente se encuentra en la ventana de “Personalizar búsqueda”
+When El cliente use los parámetros para la búsqueda de su mascota deseada y de click en “Aceptar”.
+Then Le aparecerán los perfiles de todas las mascotas que coincidan con algunas o todas las especificaciones insertadas.
+
+Scenario: No encontrar mascota con los parámetros registrados.
+Given El cliente se encuentra en la ventana “Personalizar búsqueda”
+When El cliente use los parámetros para la búsqueda de su mascota deseada y de click en “Aceptar”  
+Then  Le aparecerá en la ventana un mensaje de “No existen
+publicaciones con las características especificadas”.

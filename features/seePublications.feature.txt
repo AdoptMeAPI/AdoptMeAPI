@@ -1,0 +1,15 @@
+Why
+Como cliente
+Quiero ver publicaciones de otros dueños
+Para darle elegir una mascota que me guste
+
+Acceptance Criteria
+Scenario: Existen publicaciones cargadas
+Given El cliente se encuentra en la vista "Menú principal"
+When  El cliente de click en “Ver publicaciones”  
+Then Se le mostrarán las publicaciones que se han cargado.
+
+Scenario: No cuenta con conexión a internet
+Given El cliente se encuentra en la vista "Menú principal"
+When  El cliente de click en “Ver publicaciones”  
+Then Se le mostrará un mensaje de "Error de conexión".

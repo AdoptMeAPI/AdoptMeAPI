@@ -1,0 +1,16 @@
+Why
+Como usuario cliente
+Quiero ser avisado si he sido elegido para ser el dueño de la mascota
+Para así buscar otras opciones
+
+
+Acceptance Criteria
+Scenario: Recibir una notificacion de aceptacion
+Given Que el cliente se encuentra en el menu principal de su celular
+When Que el cliente envio una solicitud para adoptar una mascota
+Then Le aparecera una notificacion con el mensaje "Solitud Aceptada"
+
+Scenario: No recibir notificacion por  falta de internet
+Given Que el cliente se encuentra en el menu principal de su celular
+When Que el cliente enio una solicitude para adoptar una mascota
+Then No recibe ninguna notificacion por falta de internet

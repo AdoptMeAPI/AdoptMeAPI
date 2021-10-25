@@ -1,0 +1,15 @@
+Why
+Como usuario cliente
+Quiero guardar una lista de publicaciones en mi perfil
+Para así dar a conocer los animales que tengo en adopción
+
+Acceptance Criteria
+Scenario:El cliente guarda una lista de publicaciones en su perfil de manera exitosa
+Given El cliente selecciona la opcion de "guardar una lista de publicaciones"
+When el cliente selecciona las publicaciones que quiere guardar y le da al boton "guardar"
+Then Se guarda la lista y se muestra el mensaje "lista guardada exitosamente".
+
+Scenario: El cliente no cuenta con publicaciones
+Given El cliente selecciona la opcion de "guardar una lista de publicaciones"
+When el cliente no tiene publicaciones
+Then Se mostrará un mensaje “Usted no tiene publicaciones”.

@@ -1,0 +1,15 @@
+Why
+Como cliente
+Quiero adoptar una mascota
+Para darle una mejor calidad de vida.
+
+Acceptance Criteria
+Scenario: Seleccionar una mascota
+Given El cliente se encuentra en el perfil de la mascota seleccionada
+When El cliente solicita una  adopción. 
+Then La aplicación le dice que su solicitud ha sido enviada y que ahora debe esperar.
+
+Scenario: Seleccionar una mascota sin conexión a  internet
+Given El cliente se encuentra en el perfil de la mascota seleccionada
+When El cliente solicita una  adopción. 
+Then La aplicación le dice que su solicitud no ha sido enviada y tiene problemas de conexión.

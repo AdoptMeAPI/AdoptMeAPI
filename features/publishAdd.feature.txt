@@ -1,0 +1,15 @@
+Why
+Como veterinario
+Quiero promocionar mi clínica veterinaria
+Para obtener más clientes.
+
+Acceptance Criteria
+Scenario: Publicitar su clínica veterinaria dentro de la app.
+Given El veterinario se encuentra en la sección para publicar anuncios.
+When El veterinario inserta su publicidad cumpliendo con los requisitos de la app y envía su publicación.
+Then Le aparecerá la ventana para pagar por la publicidad.
+
+Scenario: La publicidad no cumple con los requisitos de la app
+Given El veterinario se encuentra en la ventana para publicar anuncios.
+When El veterinario no rellena los campos obligatorios.
+Then Aparece un mensaje que dice para avisarle que debe completar los datos.

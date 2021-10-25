@@ -1,0 +1,22 @@
+Why
+Como veterinario
+Quiero editar mis publicaciones anteriores
+Para mejorar aspectos necesarios.
+
+Acceptance Criteria
+Scenario: Aplicar cambios.
+Given El veterinario edita una publicación
+When: El veterinario realiza los cambios y los aplica.
+Then: Se muestra un mensaje de confirmación.
+
+Given: El veterinario edita una publicación
+When: El veterinario realiza los cambios pero los cancelar
+Then: Se muestra un mensaje de cancelación.
+Scenario: Descartar cambios
+Given El veterinario edita una publicación
+When El veterinario le cancela la operación
+Then: No se realiza ningún cambio.
+
+Given El veterinario edita una publicación
+When: El veterinario le haya cancela la operación.
+Then: Regresa a la sección para editar.
